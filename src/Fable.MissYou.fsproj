@@ -1,11 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
+        <Version>1.0.1</Version>
         <Title>Fable MissYou</Title>
-        <Version>1.0.0</Version>
-        <Description>MissYou integration with Fable</Description>
         <PackageTags>fsharp;fable</PackageTags>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <Description>MissYou integration with Fable</Description>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <RepositoryUrl>https://github.com/alexmalimon/Fable.MissYou</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/alexmalimon/Fable.MissYou</PackageProjectUrl>
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="MissYou.fs" />
